@@ -39,3 +39,9 @@
 	z-index: 0;
 	height: 300px;
 }
+
+.product-photo {
+	position: relative;
+	padding-bottom: 100%;
+	overflow: hidden;
+}
