@@ -57,11 +57,16 @@ Creation date: 23/12/2016 15:41
 }
 
 body {
-	background: url(../images/bg/2.png) #c8fec3;
+	background:  #c8fec3;
 	font-family: 'Roboto', sans-serif;
 	color: #474747;
 	font-size: 14px;
-	margin: 0;
+	padding-top: 100px;
+}
+
+shop{
+		/*padding-top: 100px;*/
+
 }
 
 header {

@@ -1,108 +1,327 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>grid</title>
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/master.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/css/icons.css">
-  </head>
-  <body>
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/master.css" rel="stylesheet">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="/css/icons.css" rel="stylesheet">
+</head>
+
+<body>
     <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar">home</span>
-              <span class="icon-bar">not home</span>
-              <span class="icon-bar">somewhere</span>
-            </button>
-      <a class="navbar-brand" href="#">Brand</a>
-      <a class="navbar-brand" href="#">Home</a>
-      <a class="navbar-brand" href="#">e-store</a>
-      <div class="layout-buttons">
-      					<span class="icon icon-list active"></span>
-      		            		<span class="icon icon-table"></span>
-      				</div>
-    </div>
-      </div>
+        <div class="container">
+            <div class="navbar-header">
+                <button aria-expanded="false" class="navbar-toggle collapsed" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span> <span class="icon-bar">home</span> <span class="icon-bar">not home</span> <span class="icon-bar">somewhere</span></button>                <a class="navbar-brand" href="#">Brand</a> <a class="navbar-brand" href="#">Home</a> <a class="navbar-brand" href="#">e-store</a>
+                <div class="layout-buttons">
+                    <span class="glyphicon glyphicon-th active"></span> <span class="glyphicon glyphicon-th-list"></span>
+                </div>
+            </div>
+        </div>
     </nav>
+    <div class="container">
+        <div class="row">
+            <ul class="products clearfix">
+                <li class="product-wrapper">
+                    <a class="product" href="">
+                        <div class="product-main">
+                            <div class="product-photo">
+                                <img alt="" src="images/1.jpg">
+                                <div class="product-preview">
+                                    <span class="button">Быстрый просмотр</span>
+                                </div>
+                            </div>
+                            <div class="product-text">
+                                <h2 class="produkt-name">Хлорофитум</h2>
+                                <p>Одно из&nbsp;самых неприхотливых комнатных растений, отлично очищающее воздух в&nbsp;помещении</p>
+                                <div class="product-icons">
+                                    <div class="product-icons-item">
+                                        <span class="glyphicon glyphicon-heart-empty"></span> <span class="product-icon-text">В избранное</span>
+                                    </div>
+                                    <div class="product-icons-item">
+                                        <span class="glyphicon glyphicon-screenshot"></span> <span class="product-icon-text">В сравнение</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-details-wrap">
+                            <div class="product-details">
+                                <div class="product-availability">
+                                    <span class="glyphicon glyphicon-ok"></span>В наличии
+                                </div><span class="product-price product-price-old"><b>740</b> <small>руб.</small></span> <span class="product-price"><b>640</b> <small>руб.</small></span>
+                            </div>
+                            <div class="product-buttons-wrap">
+                                <div class="buttons">
+                                    <span class="button to-cart"><span class="glyphicon glyphicon-shopping-cart"></span>В корзину</span> <span class="button">Купить в 1 клик</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="product-wrapper">
+                    <a class="product" href="">
+                        <div class="product-main">
+                            <div class="product-photo">
+                                <img alt="" src="images/1.jpg">
+                                <div class="product-preview">
+                                    <span class="button">Быстрый просмотр</span>
+                                </div>
+                            </div>
+                            <div class="product-text">
+                                <h2 class="produkt-name">Хлорофитум</h2>
+                                <p>Одно из&nbsp;самых неприхотливых комнатных растений, отлично очищающее воздух в&nbsp;помещении</p>
+                                <div class="product-icons">
+                                    <div class="product-icons-item">
+                                        <span class="glyphicon glyphicon-heart-empty"></span> <span class="product-icon-text">В избранное</span>
+                                    </div>
+                                    <div class="product-icons-item">
+                                        <span class="glyphicon glyphicon-screenshot"></span> <span class="product-icon-text">В сравнение</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-details-wrap">
+                            <div class="product-details">
+                                <div class="product-availability">
+                                    <span class="glyphicon glyphicon-ok"></span>В наличии
+                                </div><span class="product-price product-price-old"><b>740</b> <small>руб.</small></span> <span class="product-price"><b>640</b> <small>руб.</small></span>
+                            </div>
+                            <div class="product-buttons-wrap">
+                                <div class="buttons">
+                                    <span class="button to-cart"><span class="glyphicon glyphicon-shopping-cart"></span>В корзину</span> <span class="button">Купить в 1 клик</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="product-wrapper">
+                    <a class="product" href="">
+                        <div class="product-main">
+                            <div class="product-photo">
+                                <img alt="" src="images/1.jpg">
+                                <div class="product-preview">
+                                    <span class="button">Быстрый просмотр</span>
+                                </div>
+                            </div>
+                            <div class="product-text">
+                                <h2 class="produkt-name">Хлорофитум</h2>
+                                <p>Одно из&nbsp;самых неприхотливых комнатных растений, отлично очищающее воздух в&nbsp;помещении</p>
+                                <div class="product-icons">
+                                    <div class="product-icons-item">
+                                        <span class="glyphicon glyphicon-heart-empty"></span> <span class="product-icon-text">В избранное</span>
+                                    </div>
+                                    <div class="product-icons-item">
+                                        <span class="glyphicon glyphicon-screenshot"></span> <span class="product-icon-text">В сравнение</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-details-wrap">
+                            <div class="product-details">
+                                <div class="product-availability">
+                                    <span class="glyphicon glyphicon-ok"></span>В наличии
+                                </div><span class="product-price product-price-old"><b>740</b> <small>руб.</small></span> <span class="product-price"><b>640</b> <small>руб.</small></span>
+                            </div>
+                            <div class="product-buttons-wrap">
+                                <div class="buttons">
+                                    <span class="button to-cart"><span class="glyphicon glyphicon-shopping-cart"></span>В корзину</span> <span class="button">Купить в 1 клик</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="product-wrapper">
+                    <a class="product" href="">
+                        <div class="product-main">
+                            <div class="product-photo">
+                                <img alt="" src="images/1.jpg">
+                                <div class="product-preview">
+                                    <span class="button">Быстрый просмотр</span>
+                                </div>
+                            </div>
+                            <div class="product-text">
+                                <h2 class="produkt-name">Хлорофитум</h2>
+                                <p>Одно из&nbsp;самых неприхотливых комнатных растений, отлично очищающее воздух в&nbsp;помещении</p>
+                                <div class="product-icons">
+                                    <div class="product-icons-item">
+                                        <span class="glyphicon glyphicon-heart-empty"></span> <span class="product-icon-text">В избранное</span>
+                                    </div>
+                                    <div class="product-icons-item">
+                                        <span class="glyphicon glyphicon-screenshot"></span> <span class="product-icon-text">В сравнение</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-details-wrap">
+                            <div class="product-details">
+                                <div class="product-availability">
+                                    <span class="glyphicon glyphicon-ok"></span>В наличии
+                                </div><span class="product-price product-price-old"><b>740</b> <small>руб.</small></span> <span class="product-price"><b>640</b> <small>руб.</small></span>
+                            </div>
+                            <div class="product-buttons-wrap">
+                                <div class="buttons">
+                                    <span class="button to-cart"><span class="glyphicon glyphicon-shopping-cart"></span>В корзину</span> <span class="button">Купить в 1 клик</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="product-wrapper">
+                    <a class="product" href="">
+                        <div class="product-main">
+                            <div class="product-photo">
+                                <img alt="" src="images/1.jpg">
+                                <div class="product-preview">
+                                    <span class="button">Быстрый просмотр</span>
+                                </div>
+                            </div>
+                            <div class="product-text">
+                                <h2 class="produkt-name">Хлорофитум</h2>
+                                <p>Одно из&nbsp;самых неприхотливых комнатных растений, отлично очищающее воздух в&nbsp;помещении</p>
+                                <div class="product-icons">
+                                    <div class="product-icons-item">
+                                        <span class="glyphicon glyphicon-heart-empty"></span> <span class="product-icon-text">В избранное</span>
+                                    </div>
+                                    <div class="product-icons-item">
+                                        <span class="glyphicon glyphicon-screenshot"></span> <span class="product-icon-text">В сравнение</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-details-wrap">
+                            <div class="product-details">
+                                <div class="product-availability">
+                                    <span class="glyphicon glyphicon-ok"></span>В наличии
+                                </div><span class="product-price product-price-old"><b>740</b> <small>руб.</small></span> <span class="product-price"><b>640</b> <small>руб.</small></span>
+                            </div>
+                            <div class="product-buttons-wrap">
+                                <div class="buttons">
+                                    <span class="button to-cart"><span class="glyphicon glyphicon-shopping-cart"></span>В корзину</span> <span class="button">Купить в 1 клик</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="product-wrapper">
+                    <a class="product" href="">
+                        <div class="product-main">
+                            <div class="product-photo">
+                                <img alt="" src="images/1.jpg">
+                                <div class="product-preview">
+                                    <span class="button">Быстрый просмотр</span>
+                                </div>
+                            </div>
+                            <div class="product-text">
+                                <h2 class="produkt-name">Хлорофитум</h2>
+                                <p>Одно из&nbsp;самых неприхотливых комнатных растений, отлично очищающее воздух в&nbsp;помещении</p>
+                                <div class="product-icons">
+                                    <div class="product-icons-item">
+                                        <span class="glyphicon glyphicon-heart-empty"></span> <span class="product-icon-text">В избранное</span>
+                                    </div>
+                                    <div class="product-icons-item">
+                                        <span class="glyphicon glyphicon-screenshot"></span> <span class="product-icon-text">В сравнение</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-details-wrap">
+                            <div class="product-details">
+                                <div class="product-availability">
+                                    <span class="glyphicon glyphicon-ok"></span>В наличии
+                                </div><span class="product-price product-price-old"><b>740</b> <small>руб.</small></span> <span class="product-price"><b>640</b> <small>руб.</small></span>
+                            </div>
+                            <div class="product-buttons-wrap">
+                                <div class="buttons">
+                                    <span class="button to-cart"><span class="glyphicon glyphicon-shopping-cart"></span>В корзину</span> <span class="button">Купить в 1 клик</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="product-wrapper">
+                    <a class="product" href="">
+                        <div class="product-main">
+                            <div class="product-photo">
+                                <img alt="" src="images/1.jpg">
+                                <div class="product-preview">
+                                    <span class="button">Быстрый просмотр</span>
+                                </div>
+                            </div>
+                            <div class="product-text">
+                                <h2 class="produkt-name">Хлорофитум</h2>
+                                <p>Одно из&nbsp;самых неприхотливых комнатных растений, отлично очищающее воздух в&nbsp;помещении</p>
+                                <div class="product-icons">
+                                    <div class="product-icons-item">
+                                        <span class="glyphicon glyphicon-heart-empty"></span> <span class="product-icon-text">В избранное</span>
+                                    </div>
+                                    <div class="product-icons-item">
+                                        <span class="glyphicon glyphicon-screenshot"></span> <span class="product-icon-text">В сравнение</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-details-wrap">
+                            <div class="product-details">
+                                <div class="product-availability">
+                                    <span class="glyphicon glyphicon-ok"></span>В наличии
+                                </div><span class="product-price product-price-old"><b>740</b> <small>руб.</small></span> <span class="product-price"><b>640</b> <small>руб.</small></span>
+                            </div>
+                            <div class="product-buttons-wrap">
+                                <div class="buttons">
+                                    <span class="button to-cart"><span class="glyphicon glyphicon-shopping-cart"></span>В корзину</span> <span class="button">Купить в 1 клик</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="product-wrapper">
+                    <a class="product" href="">
+                        <div class="product-main">
+                            <div class="product-photo">
+                                <img alt="" src="images/1.jpg">
+                                <div class="product-preview">
+                                    <span class="button">Быстрый просмотр</span>
+                                </div>
+                            </div>
+                            <div class="product-text">
+                                <h2 class="produkt-name">Хлорофитум</h2>
+                                <p>Одно из&nbsp;самых неприхотливых комнатных растений, отлично очищающее воздух в&nbsp;помещении</p>
+                                <div class="product-icons">
+                                    <div class="product-icons-item">
+                                        <span class="glyphicon glyphicon-heart-empty"></span> <span class="product-icon-text">В избранное</span>
+                                    </div>
+                                    <div class="product-icons-item">
+                                        <span class="glyphicon glyphicon-screenshot"></span> <span class="product-icon-text">В сравнение</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-details-wrap">
+                            <div class="product-details">
+                                <div class="product-availability">
+                                    <span class="glyphicon glyphicon-ok"></span>В наличии
+                                </div><span class="product-price product-price-old"><b>740</b> <small>руб.</small></span> <span class="product-price"><b>640</b> <small>руб.</small></span>
+                            </div>
+                            <div class="product-buttons-wrap">
+                                <div class="buttons">
+                                    <span class="button to-cart"><span class="glyphicon glyphicon-shopping-cart"></span>В корзину</span> <span class="button">Купить в 1 клик</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+    </script>
+    <script charset="utf-8" src="/js/bootstrap.min.js">
+    </script>
+    <script charset="utf-8" src="/js/master.js">
+    </script>
+</body>
 
-
-
-    <ul class="products clearfix">
-      <li class="product-wrapper">
-      					<a href="" class="product">
-      						<div class="product-main">
-      							<div class="product-photo">
-      								<img src="images/1.jpg" alt="">
-      								<div class="product-preview"><span class="button">Быстрый просмотр</span></div>
-      							</div>
-      							<div class="product-text">
-      								<h2 class="produkt-name">Хлорофитум</h2>
-      								<p>Одно из&nbsp;самых неприхотливых комнатных растений, отлично очищающее воздух в&nbsp;помещении</p>
-      								<div class="product-icons">
-      									<div class="product-icons-item">
-      										 <span class="icon icon-heart"></span>
-      										 <span class="product-icon-text">В избранное</span>
-      									</div>
-      									<div class="product-icons-item">
-      										 <span class="icon icon-balance"></span>
-      										 <span class="product-icon-text">В сравнение</span>
-      									</div>
-      								</div>
-      							</div>
-      						</div>
-      						<div class="product-details-wrap">
-      							<div class="product-details">
-      								<div class="product-availability"><span class="icon icon-check"></span>В наличии</div>
-      								<span class="product-price product-price-old">
-      									<b>740</b>
-      									<small>руб.</small>
-      								</span>
-      								<span class="product-price">
-      									<b>640</b>
-      									<small>руб.</small>
-      								</span>
-      							</div>
-      							<div class="product-buttons-wrap">
-      								<div class="buttons">
-      									<span class="button to-cart"><span class="icon icon-cart"></span>В корзину</span>
-      									<span class="button">Купить в 1 клик</span>
-      								</div>
-      							</div>
-      						</div>
-      					</a>
-      				</li>
-	<li class="product-wrapper">
-		<a href="" class="product"></a>
-	</li>
-	<li class="product-wrapper">
-		<a href="" class="product"></a>
-	</li>
-	<li class="product-wrapper">
-		<a href="" class="product"></a>
-	</li>
-	<li class="product-wrapper">
-		<a href="" class="product"></a>
-	</li>
-	<li class="product-wrapper">
-		<a href="" class="product"></a>
-	</li>
-	<li class="product-wrapper">
-		<a href="" class="product"></a>
-	</li>
-	<li class="product-wrapper">
-		<a href="" class="product"></a>
-	</li>
-</ul>
-
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<script src="master.js" charset="utf-8"></script>
-  </body>
 </html>
